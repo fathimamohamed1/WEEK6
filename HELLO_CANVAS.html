@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    canvas{
+        border:1px black solid
+    }
+</style>
+<body>
+ <canvas id="canvas" height="250" WIDTH="500"></canvas>
+
+
+<script>
+    let canvas=document.querySelector("#canvas")
+    let context =canvas.getContext('2d')
+    context.fillRect(120,20,50,100)
+
+    context.strokeRect(200 , 300, 100, 150)
+
+</script>
+</body>
+</html>
